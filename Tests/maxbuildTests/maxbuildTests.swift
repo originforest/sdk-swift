@@ -1,12 +1,12 @@
 import XCTest
-@testable import bpfaas
+@testable import maxbuild
 
-final class bpfaasTests: XCTestCase {
+final class maxbuildTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(bpfaas().text, "Hello, World!")
+        XCTAssertEqual(maxbuild().text, "Hello, World!")
     }
 
     static var allTests = [

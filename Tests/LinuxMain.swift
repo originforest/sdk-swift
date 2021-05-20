@@ -1,7 +1,7 @@
 import XCTest
 
-import bpfaasTests
+import maxbuildTests
 
 var tests = [XCTestCaseEntry]()
-tests += bpfaasTests.allTests()
+tests += maxbuildTests.allTests()
 XCTMain(tests)
